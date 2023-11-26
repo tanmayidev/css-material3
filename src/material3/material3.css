@@ -148,7 +148,7 @@ h6 {
   padding: 1rem 1.5rem;
   margin: 0.5rem 0rem;
   font-size: var(--font-size-small);
-  width: 35rem;
+  max-width: 35rem;
   border-radius: 0.5rem;
 }
 
@@ -367,11 +367,11 @@ h6 {
 .card {
   display: flex;
   flex-direction: column;
-  width: 22.5rem; /* 360 * 0.0625rem */
+  flex-wrap: wrap;
+  max-width: 22.5rem; /* 360 * 0.0625rem */
   min-height: 30rem; /* 480 * 0.0625rem */
   border-radius: 0.5rem;
   background-color: var(--white-color);
-  /* padding: 1rem 0rem; */
 }
 
 .card > .card-header {
@@ -432,7 +432,7 @@ h6 {
   display: flex;
   flex-direction: row;
   height: 5rem; /* 80 * 0.0625rem */
-  width: 22.5rem; /* 360 * 0.0625rem */
+  max-width: 22.5rem; /* 360 * 0.0625rem */
   border-radius: 0.5rem;
   overflow: hidden;
   justify-content: space-between;
@@ -466,12 +466,15 @@ h6 {
 /* OUTLINE CARD */
 
 .card-outline {
+  max-width: 22.5rem;
+  overflow: hidden;
   border: 1px solid var(--outline-color);
 }
 
 /* ELEVATED CARD */
 
 .card-elevated {
+  max-width: 22.5rem;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.19);
   border: none;
 }
@@ -479,6 +482,7 @@ h6 {
 /* TONAL CARD */
 
 .card-tonal {
+  max-width: 22.5rem;
   border: none;
   background-color: var(--card-color);
 }
@@ -510,7 +514,7 @@ input[type="number"]::-webkit-outer-spin-button {
   display: flex;
   flex-direction: column;
   margin-bottom: 1rem;
-  width: 20rem; /* 360 * 0.0625rem */
+  max-width: 20rem; /* 360 * 0.0625rem */
 }
 
 .form-group > .form-label {
