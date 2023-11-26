@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+:root {
+  /* Colors */
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --primary-color: #6750a4;
+  --primary-color-hover: #735eab;
+  --primary-color-pressed: #7965af;
+
+  /* disabled button colors */
+  --disabled-color: #e4e4e4;
+  --text-disabled-color: #989899;
+
+  /* outlined & text button colors */
+  --outline-color: #79747e;
+  --outline-color-hover: #f3f1f8;
+  --outline-color-pressed: #eceaf4;
+  --text-btn-color-pressed: #eaddff;
+
+  /* elevated button colors */
+  --elevated-color: #f7f2f9;
+  --elevated-color-hover: #e8e0f0;
+  --elevated-color-pressed: #e6dfef;
+
+  /* tonal button colors */
+  --tonal-color: #e8def8;
+  --tonal-color-hover: #d8cee8;
+  --tonal-color-pressed: #d0c6df;
+
+  /* alerts colors */
+  --alert-error-color: #fab9c9;
+  --alert-info-color: #e8def8;
+  --alert-success-color: #cafbd5;
+  --alert-warning-color: #fbe9ca;
+
+  /* Card Colors */
+  --card-text-color: #49454f;
+  --card-color: #e7e0ec;
+
+  /* Dropdown Colors */
+  --dropdown-bg-color: #f3edf7;
+
+  /* Font Sizes */
+  --font-weight-light: 300;
+  --font-weight: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --btn-font-size: 0.875rem; /* 14 * 0.0625rem */
+  --font-size-small: 0.75rem; /* 12 * 0.0625rem */
+  --btn-border-radius: 6.25rem; /* 100 * 0.0625rem */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: var(--black-color);
+}
+
+/* HEADINGS */
+
+h1 {
+  font-size: 6rem; /* 96 * 0.0625rem */
+  margin: -0.01875rem; /* -1.5 * 0.0125rem */
+}
+
+h2 {
+  font-size: 3.75rem; /* 60 * 0.0625rem */
+  margin: -0.00625rem; /* -0.5 * 0.0125rem */
+}
+
+h3 {
+  font-size: 3rem; /* 48 * 0.0625rem */
+  margin: 0rem; /* 0 * 0.0125rem */
+}
+
+h4 {
+  font-size: 2.125rem; /* 34 * 0.0625rem */
+  margin: 0.003125rem; /* 0.25 * 0.0125rem */
+}
+
+h5 {
+  font-size: 1.5rem; /* 24 * 0.0625rem */
+  margin: 0rem; /* 0 * 0.0125rem */
+}
+
+h6 {
+  font-size: 1.25rem; /* 20 * 0.0625rem */
+  margin: 0.001875rem; /* 0.15 * 0.0125rem */
+}
+
+/* END OF HEADINGS */
+
+/* TYPOGRAPHY */
+
+/* DISPLAY TEXT */
+
+.display-large {
+  font-size: 3.5625rem; /* 57 * 0.0625rem */
+  margin: 0rem; /* 0 * 0.0125rem */
+}
+
+.display-medium {
+  font-size: 2.8125rem /* 45 * 0.0625rem */;
+  margin: 0rem; /* 0 * 0.0125rem */
+}
+
+.display-small {
+  font-size: 2.25rem; /* 36 * 0.0625rem */
+  margin: 0rem; /* 0 * 0.0125rem */
+}
+
+/* HEADLINE TEXT */
+
+.headline-large {
+  font-size: 2rem; /* 32 * 0.0625rem */
+  margin: 0rem; /* 0 * 0.0125rem */
+}
+
+.headline-medium {
+  font-size: 1.75rem; /* 28 * 0.0625rem */
+  margin: 0rem; /* 0 * 0.0125rem */
+}
+
+.headline-small {
+  font-size: 1.5rem; /* 24 * 0.0625rem */
+  margin: 0rem; /* 0 * 0.0125rem */
+}
+
+/* TITLE TEXT */
+
+.title-large {
+  font-size: 1.125rem; /* 18 * 0.0625rem */
+  margin: 0rem; /* 0 * 0.0125rem */
+  font-weight: 500;
+}
+
+.title-medium {
+  font-size: 1rem; /* 16 * 0.0625rem */
+  margin: 0.0125rem; /* 1 * 0.0125rem */
+  font-weight: 500;
+}
+
+.title-small {
+  font-size: 0.875rem; /* 14 * 0.0625rem */
+  margin: 0.0125rem; /* 1 * 0.0125rem */
+  font-weight: 500;
+}
+
+/* LABEL TEXT */
+
+.label-large {
+  font-size: 1rem; /* 16 * 0.0625rem */
+  margin: 0.125rem; /* 1 * 0.0125rem */
+}
+
+.label-medium {
+  font-size: 0.875rem; /* 14 * 0.0625rem */
+  margin: 0.125rem; /* 1 * 0.0125rem */
+}
+
+.label-small {
+  font-size: 0.75rem; /* 12 * 0.0625rem */
+  margin: 0.125rem; /* 1 * 0.0125rem */
+}
+
+/* BODY TEXT */
+
+.body-large {
+  font-size: 1.125rem; /* 18 * 0.0625rem */
+  margin: 0.001875rem; /* 0.15 * 0.0125rem */
+  font-weight: 300;
+}
+
+.body-medium {
+  font-size: 1rem; /* 16 * 0.0625rem */
+  margin: 0.003125rem; /* 0.25 * 0.0125rem */
+  font-weight: 300;
+}
+
+.body-small {
+  font-size: 0.875rem; /* 14 * 0.0625rem */
+  margin: 0.005rem; /* 0.4 * 0.0125rem */
+  font-weight: 300;
+}
