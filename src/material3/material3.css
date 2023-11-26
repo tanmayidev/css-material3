@@ -99,6 +99,55 @@ h6 {
 
 /* END OF HEADINGS */
 
+/* ALERTS / NOTIFICATIONS */
+
+.alert {
+  padding: 1rem 1.5rem;
+  margin: 0.5rem 0rem;
+  font-size: var(--font-size-small);
+  border-radius: 0.5rem;
+}
+
+.alert > a {
+  text-decoration: none;
+  color: var(--black-color);
+  font-weight: var(--font-weight-bold);
+}
+
+.alert-dismissable {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 1.5rem;
+  margin: 0.5rem 0rem;
+  font-size: var(--font-size-small);
+  width: 35rem;
+  border-radius: 0.5rem;
+}
+
+.alert-info {
+  background-color: var(--alert-info-color);
+}
+
+.alert-error {
+  background-color: var(--alert-error-color);
+}
+
+.alert-warning {
+  background-color: var(--alert-warning-color);
+}
+
+.alert-success {
+  background-color: var(--alert-success-color);
+}
+
+.close-btn {
+  border: none;
+  background-color: transparent;
+  margin-left: 1rem;
+  cursor: pointer;
+  align-items: center;
+}
+
 /* BUTTONS */
 
 [disabled] {
