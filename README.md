@@ -1,6 +1,6 @@
-# Material3 CSS Components Library
+# [Material3 CSS Components Library](https://tanmayidev.github.io/material3-css-components-library/)
 
-### Mandatory Components
+### Components Available
 
 - [x] Buttons
 - [x] Forms
@@ -9,7 +9,7 @@
 - [x] Alerts/Notifications
 - [x] Typography styles
 
-### Optional Components
+### Todo Components
 
 - [ ] Sliders
 - [ ] Badge
