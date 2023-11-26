@@ -586,6 +586,154 @@ input[type="password"].form-tonal-input:focus {
 
 /* END OF FORM */
 
+/* NAVIGATION */
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.nav > .active {
+  font-weight: var(--font-weight-medium);
+  color: var(--primary-color);
+}
+
+.nav > .disabled {
+  color: var(--text-disabled-color);
+  cursor: not-allowed;
+}
+
+.nav > .disabled:hover {
+  color: var(--text-disabled-color);
+  font-weight: var(--font-weight);
+}
+
+.nav-link:hover {
+  color: var(--primary-color);
+  font-weight: var(--font-weight-medium);
+}
+
+/* NAV FILLED */
+
+.nav-filled {
+  display: flex;
+}
+
+.nav-filled > .nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0rem 0.5rem;
+}
+
+.nav-filled > .nav-item > .nav-link {
+  min-width: 5rem;
+  text-align: center;
+}
+
+.nav-filled > .nav-item > .nav-link:hover {
+  background-color: var(--primary-color);
+  border-radius: 1rem;
+  color: var(--white-color);
+}
+
+.nav-filled > .nav-item > .nav-link:hover {
+  color: var(--white-color);
+  font-weight: var(--font-weight);
+}
+
+.nav-filled > .nav-item > .active {
+  background-color: var(--primary-color);
+  border-radius: 1rem;
+  color: var(--white-color);
+}
+
+.nav-filled > .nav-item > .disabled {
+  color: var(--text-disabled-color);
+  cursor: not-allowed;
+}
+
+.nav-filled > .nav-item > .disabled:hover {
+  color: var(--text-disabled-color);
+  background-color: transparent;
+}
+
+/* NAV TONAL */
+
+.nav-tonal {
+  display: flex;
+}
+
+.nav-tonal > .nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0rem 0.5rem;
+}
+
+.nav-tonal > .nav-item > .nav-link {
+  min-width: 5rem;
+  text-align: center;
+}
+
+.nav-tonal > .nav-item > .nav-link {
+  color: var(--black-color);
+}
+
+.nav-tonal > .nav-item > .nav-link:hover {
+  background-color: var(--tonal-color);
+  border-radius: var(--btn-border-radius);
+  color: var(--black-color);
+}
+
+.nav-tonal > .nav-item > .nav-link:hover {
+  color: var(--black-color);
+  font-weight: var(--font-weight);
+}
+
+.nav-tonal > .nav-item > .active {
+  background-color: var(--tonal-color);
+  border-radius: var(--btn-border-radius);
+  color: var(--black-color);
+}
+
+.nav-tonal > .nav-item > .disabled {
+  color: var(--text-disabled-color);
+  cursor: not-allowed;
+}
+
+.nav-tonal > .nav-item > .disabled:hover {
+  color: var(--text-disabled-color);
+  background-color: transparent;
+}
+
+/* NAV COLUMN */
+
+.nav-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-col > .nav-item {
+  margin: 0.5rem 0rem;
+}
+
+.nav-col > .nav-item > .nav-link {
+  text-align: left;
+}
+
+/* END OF NAVIGATION */
+
 /* TYPOGRAPHY */
 
 /* DISPLAY TEXT */
