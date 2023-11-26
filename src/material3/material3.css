@@ -457,6 +457,135 @@ h6 {
 
 /* END OF CARDS */
 
+/* FORM */
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  opacity: 1;
+  font-size: 1.5rem;
+}
+
+.form-card {
+  width: max-content;
+  margin: 1rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* FORM GROUP */
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  width: 20rem; /* 360 * 0.0625rem */
+}
+
+.form-group > .form-label {
+  font-size: 0.875rem; /* 14 * 0.0625rem */
+  margin-bottom: 0.125rem;
+}
+
+.form-group > .form-control {
+  margin: 0.8rem 0rem;
+  padding: 0.8rem 1rem;
+  border: 1px solid var(--outline-color);
+  border-radius: 0.4rem;
+  font-size: 0.875rem;
+}
+
+.form-select {
+  display: flex;
+}
+
+.form-select > .radio-label {
+  font-size: 0.875rem; /* 14 * 0.0625rem */
+  margin-bottom: 1rem;
+}
+
+.form-select > .radio-input {
+  margin-bottom: 1rem;
+  margin-right: 0.5rem;
+  line-height: 0.8;
+}
+
+input[type="radio"].radio-input {
+  margin-top: -1px;
+}
+
+input[type="radio"].radio-input:checked {
+  accent-color: var(--primary-color);
+}
+
+/*  FORM OUTLINE */
+
+.form-outline-input {
+  border: 1px solid var(--outline-color);
+}
+
+input[type="email"].form-outline-input:focus {
+  border: 1px solid var(--outline-color);
+  background-color: var(--outline-color-pressed);
+}
+
+input[type="password"].form-outline-input:focus {
+  border: 1px solid var(--outline-color);
+  background-color: var(--outline-color-pressed);
+}
+
+/* FORM ELEVATED */
+input[type="email"].form-elevated-input {
+  border: none;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type="password"].form-elevated-input {
+  border: none;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type="email"].form-elevated-input:focus {
+  border: none;
+  color: var(--primary-color);
+  background-color: var(--elevated-color);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type="password"].form-elevated-input:focus {
+  border: none;
+  color: var(--primary-color);
+  background-color: var(--elevated-color);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* FORM TONAL */
+
+input[type="email"].form-tonal-input {
+  border: none;
+  background-color: var(--tonal-color);
+}
+
+input[type="password"].form-tonal-input {
+  border: none;
+  background-color: var(--tonal-color);
+}
+
+input[type="email"].form-tonal-input:focus {
+  border: none;
+  background-color: var(--tonal-color-pressed);
+}
+
+input[type="password"].form-tonal-input:focus {
+  border: none;
+  background-color: var(--tonal-color-pressed);
+}
+
+/* END OF FORM */
+
 /* TYPOGRAPHY */
 
 /* DISPLAY TEXT */
