@@ -99,6 +99,190 @@ h6 {
 
 /* END OF HEADINGS */
 
+/* BUTTONS */
+
+[disabled] {
+  cursor: not-allowed;
+}
+
+.btn {
+  padding: 0.5rem 1.5rem;
+  font-size: var(--btn-font-size);
+  font-weight: var(--font-weight);
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* FILLED BUTTONS */
+
+.btn-filled {
+  color: var(--white-color);
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: var(--btn-border-radius);
+}
+
+.btn-filled:hover,
+.btn-filled-hovered {
+  background-color: var(--primary-color-hover);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-filled:focus,
+.btn-filled-focussed {
+  background-color: var(--primary-color-hover);
+}
+
+.btn-filled:active,
+.btn-filled-pressed {
+  background-color: var(--primary-color-pressed);
+}
+
+.btn-filled:disabled {
+  color: var(--text-disabled-color);
+  background-color: var(--disabled-color);
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* OUTLINED BUTTONS */
+
+.btn-outlined {
+  color: var(--primary-color);
+  /* background-color: var(--white-color); */
+  background-color: transparent;
+  border: 1px solid var(--outline-color);
+  border-radius: var(--btn-border-radius);
+}
+
+.btn-outlined:hover,
+.btn-outlined-hovered {
+  border: 1px solid var(--outline-color);
+  background-color: var(--outline-color-hover);
+}
+
+.btn-outlined:focus,
+.btn-outlined-focussed {
+  border: 1px solid var(--primary-color);
+  background-color: var(--outline-color-pressed);
+}
+
+.btn-outlined:active,
+.btn-outlined-pressed {
+  border: 1px solid var(--outline-color);
+  background-color: var(--outline-color-pressed);
+}
+
+.btn-outlined:disabled {
+  border: 1px solid var(--disabled-color);
+  background-color: var(--white-color);
+  color: var(--text-disabled-color);
+  cursor: not-allowed;
+}
+
+/* TEXT BUTTONS */
+
+.btn-text {
+  color: var(--primary-color);
+  background-color: var(--white-color);
+  border: none;
+  border-radius: var(--btn-border-radius);
+}
+
+.btn-text:hover,
+.btn-text-hovered {
+  border: none;
+  background-color: var(--outline-color-hover);
+}
+
+.btn-text:focus,
+.btn-text-focussed {
+  border: none;
+  background-color: var(--outline-color-pressed);
+}
+
+.btn-text:active,
+.btn-text-pressed {
+  border: none;
+  background-color: var(--text-btn-color-pressed);
+}
+
+.btn-text:disabled {
+  border: none;
+  background-color: var(--white-color);
+  color: var(--text-disabled-color);
+  cursor: not-allowed;
+}
+
+/* ELEVATED BUTTONS */
+
+.btn-elevated {
+  color: var(--primary-color);
+  background-color: var(--elevated-color);
+  border: none;
+  border-radius: var(--btn-border-radius);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-elevated:hover,
+.btn-elevated-hovered {
+  background-color: var(--elevated-color-hover);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-elevated:focus,
+.btn-elevated-focussed {
+  background-color: var(--elevated-color-pressed);
+}
+
+.btn-elevated:active,
+.btn-elevated-pressed {
+  background-color: var(--elevated-color-pressed);
+}
+
+.btn-elevated:disabled {
+  color: var(--text-disabled-color);
+  background-color: var(--disabled-color);
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* TONAL BUTTONS */
+
+.btn-tonal {
+  color: var(--black-color);
+  background-color: var(--tonal-color);
+  border: none;
+  border-radius: var(--btn-border-radius);
+}
+
+.btn-tonal:hover,
+.btn-tonal-hovered {
+  background-color: var(--tonal-color-hover);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-tonal:focus,
+.btn-tonal-focussed {
+  background-color: var(--tonal-color-pressed);
+  box-shadow: none;
+}
+
+.btn-tonal:active,
+.btn-tonal-pressed {
+  background-color: var(--tonal-color-pressed);
+  box-shadow: none;
+}
+
+.btn-tonal:disabled {
+  color: var(--text-disabled-color);
+  background-color: var(--disabled-color);
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
 /* TYPOGRAPHY */
 
 /* DISPLAY TEXT */
